@@ -4,4 +4,3 @@ RUN apt-get update
 RUN apt-get install -y vim
 RUN docker-php-ext-install mysql
 RUN apt-get install -y sendmail
-CMD ["/etc/init.d/sendmail start"]
